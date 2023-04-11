@@ -1,14 +1,14 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='mangacollect_test',
     version='0.1',
+    packages=find_packages(),
     description='connexion à l\'api de mangacollect',
     url='https://github.com/shooter-dev/mangacollect_test',
     author='shooterdev',
     author_email='vincentbleach@gmail.com',
     license='MIT',
-    packages=['mangacollect_test'],
     install_requires=[
         'requests',
     ],
