@@ -7,7 +7,7 @@ setup(
     packages=['mangacollect'],
     author='shooterdev',
     author_email='vincentbleach@gmail.com',
-    url='URL de votre site web ou de votre dépôt GitHub',
+    url='git@github.com:shooter-dev/mangacollect_test.git',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
