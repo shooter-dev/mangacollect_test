@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='mangacollect_test',
     version='0.1',
-    packages=['APIMangacollect'],
+    packages=['mangacollect'],
     install_requires=[
         'requests',
     ],
